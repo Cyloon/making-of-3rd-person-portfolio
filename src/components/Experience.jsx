@@ -33,8 +33,8 @@ export const Experience = () => {
       </directionalLight>
       <Physics key={map}>
         <Map
-          scale={0.4}
-          position={[-1, -2, 1]}
+          scale={0.8}
+          position={[0, -2, 2]}
           model={`models/ModularFloorMap.glb`}
         />
         <CharacterController />
